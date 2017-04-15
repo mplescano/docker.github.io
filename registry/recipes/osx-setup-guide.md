@@ -36,7 +36,42 @@ If you don't, the TLDR is:
 If you want to understand, you should read [How to Write Go Code](https://golang.org/doc/code.html).
 
 ## Checkout the Docker Distribution source tree
+    mkdir -p $GOPATH/src/github.com/Azure/azure-sdk-for-go &&
+    git clone https://github.com/Azure/azure-sdk-for-go.git $GOPATH/src/github.com/Azure/azure-sdk-for-go &&
 
+    mkdir -p $GOPATH/src/github.com/Sirupsen/logrus &&
+    git clone https://github.com/sirupsen/logrus.git $GOPATH/src/github.com/Sirupsen/logrus &&
+
+    mkdir -p $GOPATH/src/github.com/aws/aws-sdk-go &&
+    git clone https://github.com/aws/aws-sdk-go.git $GOPATH/src/github.com/aws/aws-sdk-go &&
+
+    mkdir -p $GOPATH/src/github.com/docker/goamz &&
+    git clone https://github.com/docker/goamz.git $GOPATH/src/github.com/docker/goamz &&
+
+    mkdir -p $GOPATH/src/github.com/docker/libtrust &&
+    git clone https://github.com/docker/libtrust.git $GOPATH/src/github.com/docker/libtrust &&
+
+    mkdir -p $GOPATH/src/github.com/garyburd/redigo &&
+    git clone https://github.com/garyburd/redigo.git $GOPATH/src/github.com/garyburd/redigo &&
+
+    mkdir -p $GOPATH/src/github.com/mitchellh/mapstructure &&
+    git clone https://github.com/mitchellh/mapstructure.git $GOPATH/src/github.com/mitchellh/mapstructure &&
+
+    mkdir -p $GOPATH/src/github.com/ncw/swift &&
+    git clone https://github.com/ncw/swift.git $GOPATH/src/github.com/ncw/swift &&
+
+    mkdir -p $GOPATH/src/github.com/spf13/cobra &&
+    git clone https://github.com/spf13/cobra.git $GOPATH/src/github.com/spf13/cobra &&
+
+    mkdir -p $GOPATH/src/github.com/stevvooe/resumable &&
+    git clone https://github.com/stevvooe/resumable.git $GOPATH/src/github.com/stevvooe/resumable &&
+
+    mkdir -p $GOPATH/src/github.com/yvasiyarov/gorelic &&
+    git clone https://github.com/yvasiyarov/gorelic.git $GOPATH/src/github.com/yvasiyarov/gorelic &&
+
+    mkdir -p $GOPATH/src/github.com/golang/crypto &&
+    git clone https://github.com/golang/crypto.git $GOPATH/src/github.com/golang/crypto
+    
     mkdir -p $GOPATH/src/github.com/docker
     git clone https://github.com/docker/distribution.git $GOPATH/src/github.com/docker/distribution
     cd $GOPATH/src/github.com/docker/distribution
